@@ -1,0 +1,110 @@
+.button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: opacity 1s;
+    
+
+}
+.button:hover{
+    opacity: 0.8;
+}
+.button:active{
+    opacity: 0.3;
+}
+.join{
+    background-color: white;
+    border-color: rgb(52, 52, 216);
+    border:1px solid ;
+    color: rgb(12, 12, 211);
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+
+    
+}
+.join:hover{
+    background-color: rgb(12, 12, 211);
+    color: white;
+}
+.join:active{
+    opacity: 0.7;
+}
+
+
+
+.tweet{
+    background-color: rgb(59, 59, 236);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 1s;
+    
+    
+}
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+
+.href{
+    color: green;
+    font-size: small;
+}
+.content1{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+
+}
+.content2{
+    font-size: small;
+    color: green;
+    font-weight: bold;
+}
+
+.content3{
+    color: black;
+    font-size: small;
+
+}
+.addtocart{
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.buynow{
+    background-color: rgb(201, 132, 5);
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    border:none;
+    cursor: pointer;
+
+}
+
+.title{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+
+}
